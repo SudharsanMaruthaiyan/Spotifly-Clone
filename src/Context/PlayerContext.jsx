@@ -10,7 +10,7 @@ const PlayerContextProvider = (props)=>{
 
     const [albumsData, setAlbumsData] = useState([]);
     const [songsData, setSongsData] = useState([]);
-    const url = "http://localhost:4000";
+    const url = "https://spotify-backend-x94t.onrender.com";
 
     const [track, setTrack] = useState(songsData[0]);
     const [playerStatus, setPlayerStatus] = useState(false);
